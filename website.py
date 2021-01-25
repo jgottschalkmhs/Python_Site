@@ -4,7 +4,6 @@ import requests
 
 # functions go here
 
-
 # copes with extra / after url name
 @route('/static/<filepath:path>')
 def load_static(filepath):
