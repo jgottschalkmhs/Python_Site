@@ -20,7 +20,7 @@ def index():
 
     pass
     return dict(
-        day = formatted_date
+        day = formatted_date,
     )
 
 # displays age guessing form...
